@@ -1,2 +1,9 @@
-# data-science-learning
-Daily learning and practice journey in Data Science using Python, Pandas, NumPy, and Machine Learning.
+# Data Science Learning
+
+Goal: Build strong foundations in data science through daily practice.
+
+Topics:
+- Python
+- NumPy
+- Pandas
+- EDA
