@@ -8,6 +8,8 @@ This folder contains my Python practice while learning Data Science.
 - Day 03: Lists and Tuples
 - Day 04: Dictionary and Sets
 - Day 05: Conditional Expressions (if, elif, else)
+- Day 06: Loops (while, for)
+
 
 ## Status
 Learning in progress.
