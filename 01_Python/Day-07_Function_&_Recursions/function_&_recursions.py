@@ -1,4 +1,4 @@
-# Day 06 - Function and Recursions
+# Day 07 - Function and Recursions
 # Tpoic: Function and Recursions
 
 # Example 1: Average of the number
