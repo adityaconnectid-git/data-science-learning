@@ -14,6 +14,7 @@ The goal of this section is to master core Python concepts required for data ana
 - Day 07: Functions and Recursion
 - Day 08: File Input and Output
 - Day 09: Opps
+- Day 10: Inheritance, Properties & Operator Overloading
 
 ## Folder Structure
 Each day is organized into a separate folder containing:
