@@ -1,32 +1,47 @@
 import random
+'''
+1 for snake
+-1 for water 
+0 for gun
+'''
+computer = random.choice([-1, 0, 1])
+youstr = input("Enter your choice: ")
+youDict = {"s": 1, "w": -1, "g": 0}
+reverseDict = {1: "Snake", -1: "Water", 0: "Gun"}
 
-def game(user, computer):
-    if user == computer:
-        return None
-    elif user == 's':
-        return computer == 'w'
-    elif user == 'w':
-        return computer == 'g'
-    elif user == 'g':
-        return computer == 's'
+you = youDict[youstr]
 
-print("Snake Water Gun Game")
-print("Choose:")
-print("s = Snake")
-print("w = Water")
-print("g = Gun")
+# By now we have 2 numbers (variables), you and computer
 
-user_choice = input("Enter your choice (s/w/g): ").lower()
-computer_choice = random.choice(['s', 'w', 'g'])
+print(f"You chose {reverseDict[you]}\nComputer chose {reverseDict[computer]}")
 
-print(f"You chose: {user_choice}")
-print(f"Computer chose: {computer_choice}")
+if(computer == you):
+    print("Its a draw")
 
-result = game(user_choice, computer_choice)
-
-if result is None:
-    print("It's a tie!")
-elif result:
-    print("You win!")
 else:
-    print("You lose!")
+    '''
+     if(computer ==-1 and you == 1): (computer - you) = -2
+        print("You win!")
+
+    elif(computer ==-1 and you == 0): (computer - you) = -1
+        print("You Lose!")
+
+    elif(computer == 1 and you == -1): (computer - you) = 2
+        print("You lose!")
+
+    elif(computer ==1 and you == 0): (computer - you) = 1
+        print("You Win!")
+
+    elif(computer ==0 and you == -1): (computer - you) = 1
+        print("You Win!")
+
+    elif(computer == 0 and you == 1): computer - you) = -1
+        print("You Lose!") 
+
+        The below logic is written on the basis of the value of computer - you
+ 
+    '''
+    if((computer - you) == -1 or  (computer - you) == 2 ):
+        print("You lose!")
+    else:
+        print("You win!") 
