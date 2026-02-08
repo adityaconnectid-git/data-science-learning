@@ -1,26 +1,42 @@
-# Python Fundamentals for Data Science
+# Data Science Learning Journey
 
-This folder contains my structured Python practice focused on building a strong foundation for Data Science and Machine Learning.
+This repository documents my structured learning path in Data Science, focusing on building strong fundamentals and practical skills.
 
-The goal of this section is to master core Python concepts required for data analysis, problem solving, and real-world projects.
+The goal is to gain hands-on experience with Python, NumPy, Pandas, data analysis, and real-world datasets.
 
-## Topics Covered
-- Day 01: Python Basics (variables, data types)
-- Day 02: Strings
-- Day 03: Lists and Tuples
-- Day 04: Dictionaries and Sets
-- Day 05: Conditional Expressions (if, elif, else)
-- Day 06: Loops (for, while)
-- Day 07: Functions and Recursion
-- Day 08: File Input and Output
-- Day 09: Opps
-- Day 10: Inheritance, Properties & Operator Overloading
-- Day 11: Exception Handling, Comprehensions, Lambda, Map & Filter
+---
 
-## Folder Structure
-Each day is organized into a separate folder containing:
-- Practice code (`.py` files)
-- Concept-focused examples
+## 🧠 Core Skills
 
-## Status
-Currently learning and improving Python fundamentals with hands-on practice.
+### 🟦 Python Fundamentals
+- Core Python concepts for data handling
+- File handling and exception handling
+- Object-Oriented Programming
+- Pythonic features (comprehensions, lambda, map/filter)
+
+### 🟦 NumPy
+- Numerical computing with arrays
+- Array creation and properties
+- Vectorized operations
+
+### 🟦 Pandas *(Upcoming)*
+- Data loading and cleaning
+- Data manipulation and analysis
+- Exploratory Data Analysis (EDA)
+
+---
+
+## 📂 Repository Structure
+- Each folder represents focused learning and practice
+- Code written from scratch with clarity and readability
+
+---
+
+## 🎯 Current Focus
+- Strengthening NumPy fundamentals
+- Preparing for data analysis with Pandas
+
+---
+
+## 🚀 Goal
+To become confident in handling, analyzing, and extracting insights from real-world datasets using Python and Data Science tools.
