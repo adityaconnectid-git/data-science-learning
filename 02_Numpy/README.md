@@ -2,7 +2,7 @@
 
 This folder contains my structured **NumPy practice** focused on numerical computing for **Data Science**.
 
-NumPy is used as a core library for efficient array operations, numerical computation, and as a strong foundation for **Pandas, data analysis, and Machine Learning**.
+NumPy serves as the core library for efficient array operations, numerical computation, and forms a strong foundation for **Pandas, data analysis, and Machine Learning**.
 
 ---
 
@@ -16,40 +16,46 @@ NumPy is used as a core library for efficient array operations, numerical comput
 - Identity matrices using `eye`  
 
 ### 🟦 Array Properties
-- `shape`, `size`, `dtype`, `ndim`  
+- Array attributes: `shape`, `size`, `dtype`, `ndim`  
 - Type casting using `astype`  
 - Understanding 1D vs 2D arrays  
 
 ### 🟦 Indexing & Slicing
 - Basic and negative indexing  
-- Array slicing with steps  
+- Slicing arrays with steps  
 - Fancy indexing  
 - Boolean filtering  
 
 ### 🟦 Reshaping & Flattening
 - Reshaping arrays using `reshape`  
-- Converting arrays to 1D (`ravel`, `flatten`)  
-- Understanding view vs copy  
+- Converting arrays to 1D using `ravel` and `flatten`  
+- Understanding view vs copy behavior  
 
 ### 🟦 Array Operations
 - Vectorized arithmetic operations  
-- Element-wise operations  
+- Element-wise computations  
 - Aggregation functions (`sum`, `mean`, `min`, `max`, `std`, `var`)  
 
 ### 🟦 Array Manipulation
-- Insert, append, delete elements  
-- Concatenation of arrays  
+- Inserting, appending, and deleting elements  
+- Concatenating arrays  
 - Stacking arrays (`vstack`, `hstack`)  
 - Splitting arrays (`split`, `hsplit`, `vsplit`)  
+
+### 🟦 Broadcasting & Missing Values
+- Broadcasting rules and examples  
+- Vectorization vs Python loops  
+- Handling missing values (`NaN`)  
+- Handling infinite values (`inf`, `-inf`)  
 
 ---
 
 ## 📂 Folder Structure
-- Step-by-step practice scripts  
+- Step-by-step practice scripts organized by topic  
 - Each file focuses on a specific NumPy concept  
-- Clean, readable, and beginner-friendly code  
+- Code written with clarity and readability  
 
 ---
 
 ## 🎯 Status
-Currently strengthening NumPy fundamentals to prepare for **Pandas, data analysis, and real-world Data Science workflows**.
+NumPy fundamentals completed and ready to move forward with **Pandas, data analysis, and real-world Data Science workflows**.
