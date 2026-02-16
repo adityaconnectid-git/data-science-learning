@@ -1,81 +1,96 @@
 # Pandas for Data Science
 
-This folder contains my structured **Pandas practice** focused on real-world data analysis workflows used in Data Science.
+This folder contains my structured **Pandas practice and applied data analysis workflows** as part of my Data Science journey.
 
-Pandas is a powerful library built on NumPy and is widely used for:
+Pandas is one of the most important libraries in Data Science, used for:
 
-- Data cleaning  
-- Data manipulation  
-- Exploratory Data Analysis (EDA)  
-- Preparing datasets for Machine Learning  
+- Data cleaning
+- Data transformation
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Preparing datasets for Machine Learning models
 
 ---
 
 ## 📌 Topics Covered
 
-### 🟦 Data Loading
-- Reading CSV files (`read_csv`)
-- Reading Excel files (`read_excel`)
-- Reading JSON files (`read_json`)
-- Understanding encoding issues (`utf-8`, `latin1`)
-- Saving DataFrames (`to_csv`, `to_excel`, `to_json`)
+### 🟦 Data Loading & Saving
+- Reading CSV, Excel, and JSON files
+- Handling encoding issues (`utf-8`, `latin1`)
+- Exporting datasets (`to_csv`, `to_excel`, `to_json`)
 
 ---
 
-### 🟦 Data Exploration
-- Viewing first and last rows (`head`, `tail`)
-- Dataset summary (`info`)
-- Descriptive statistics (`describe`)
-- Understanding:
-  - `shape`
-  - `columns`
-  - data types
+### 🟦 Data Exploration & Inspection
+- `head()`, `tail()`
+- `info()`, `describe()`
+- `shape`, `columns`, `dtypes`
+- Duplicate detection
+- Missing value detection
 
 ---
 
-### 🟦 Data Selection
-- Selecting single column (Series)
-- Selecting multiple columns (DataFrame subset)
-- Row filtering using conditions
-- Multiple conditions using `&` and `|`
+### 🟦 Data Selection & Filtering
+- Column selection (Series & DataFrame)
 - Boolean filtering
+- Multiple conditions (`&`, `|`)
+- Sorting values
+- Conditional filtering
 
 ---
 
-### 🟦 Practical Data Handling
-- Creating DataFrames manually
-- Working with numeric and categorical data
-- Basic dataset inspection before analysis
+### 🟦 Data Cleaning & Transformation
+- Handling missing values (`dropna`, `fillna`, interpolation)
+- Removing duplicates
+- Renaming columns
+- Creating new columns
+- Updating values using `loc`
+- Type conversion using `astype`
+- Applying custom logic (`apply`, `map`)
+- Working with categorical data
+
+---
+
+### 🟦 Data Aggregation & Analysis
+- `groupby()` operations
+- Aggregations (`sum`, `mean`, etc.)
+- `value_counts()`
+- `pivot_table()` for summary analysis
+
+---
+
+### 🟦 Combining Data
+- `merge()` (inner, left, right, outer, cross)
+- `join()`
+- `concat()` (vertical & horizontal stacking)
 
 ---
 
 ## 📂 Folder Structure
 
-- Step-by-step practice scripts  
-- Concept-based examples  
-- Clean, readable, beginner-to-intermediate level code  
+- Concept-based practice scripts
+- Structured learning progression
+- Clean and readable code
+- Basic EDA workflow implementation
 
 ---
 
 ## 🎯 Learning Objective
 
-The goal of this section is to:
+The objective of this section is to:
 
-- Understand how real datasets are structured  
-- Learn how to inspect and filter data properly  
-- Build confidence before moving to:
-  - Missing value handling
-  - GroupBy operations
-  - Data aggregation
-  - Visualization
-  - Machine Learning preprocessing  
+- Build strong real-world data handling skills
+- Understand how raw datasets are cleaned and transformed
+- Prepare for visualization and Machine Learning workflows
+- Move from beginner-level Pandas to practical data analysis capability
 
 ---
 
 ## 🚀 Current Status
 
-Currently building strong fundamentals in Pandas to prepare for:
+Completed core and intermediate Pandas operations.
 
-- Exploratory Data Analysis (EDA)
-- Data Cleaning workflows
-- Real-world Data Science projects
+Next focus:
+- Real dataset EDA projects
+- Visualization (Matplotlib & Seaborn)
+- Preparing datasets for ML pipelines
